@@ -1,4 +1,4 @@
-class AddPassengerIdToRaides < ActiveRecord::Migration[5.0]
+class AddPassengerIdToRides < ActiveRecord::Migration[5.0]
   def change
     add_column :rides, :passenger_id, :integer
   end
